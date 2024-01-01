@@ -34,7 +34,7 @@ var id = setTimeout(() => {
 }, 2000);
 
 setTimeout(() => {
-    document.getElementById("contactmenu").style.background = "white";
+    document.querySelector("body").style.background = "white";
 }, 4000);
 
 
