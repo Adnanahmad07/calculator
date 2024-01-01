@@ -34,7 +34,7 @@ var id = setTimeout(() => {
 }, 2000);
 
 setTimeout(() => {
-    document.querySelector("body").style.background = "white";
+    document.querySelector("body").style.background = "#34495E";
 }, 4000);
 
 
