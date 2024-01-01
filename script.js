@@ -33,6 +33,10 @@ var id = setTimeout(() => {
     document.getElementById("contactmenu").style.bottom = "-15px";
 }, 2000);
 
+setTimeout(() => {
+    document.getElementById("contactmenu").style.background = "white";
+}, 4000);
+
 
 document.getElementById("opan").onclick = () => {
     document.getElementById("contactmenu").style.bottom = "-15px";
